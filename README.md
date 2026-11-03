@@ -127,8 +127,8 @@ Internet Information Services (IIS) Manager.
 
 Install these Microsoft IIS extensions:
 
-1. **IIS URL Rewrite Module 2**
-2. **Application Request Routing (ARR)**
+1. **IIS URL Rewrite Module 2  https://www.iis.net/downloads/microsoft/url-rewrite **
+2. **Application Request Routing (ARR) https://www.iis.net/downloads/microsoft/application-request-routing**
 
 Use the official Microsoft IIS download pages or your organization's
 approved software source. Install both, then reopen IIS Manager.
