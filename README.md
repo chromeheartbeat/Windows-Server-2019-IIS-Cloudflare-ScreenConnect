@@ -215,6 +215,7 @@ C:\inetpub\screen-proxy\web.config
 Use this content:
 
 ```xml
+@'
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
   <system.webServer>
@@ -230,6 +231,7 @@ Use this content:
     </rewrite>
   </system.webServer>
 </configuration>
+'@ | Set-Content C:\inetpub\screen-proxy\web.config -Encoding UTF8
 ```
 
 Test the local IIS host binding:
